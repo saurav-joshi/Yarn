@@ -32,7 +32,16 @@ public class YarnResponse {
         this.listEntities = listEntities;
     }
 
+    public List<String> getListSyn() {
+        return listSyn;
+    }
+
+    public void setListSyn(List<String> listSyn) {
+        this.listSyn = listSyn;
+    }
+
     private String originalMessage;
     private String yarnResponse;
     private List<EntityExtractionUtil.EntityExtractionResult> listEntities;
+    private List<String>listSyn;
 }
